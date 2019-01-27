@@ -26,7 +26,6 @@ SECTIONS
     }
 
     /DISCARD/ : {
-        *(COMMON)
         *(.comment)
         *(.eh_frame)
     }
